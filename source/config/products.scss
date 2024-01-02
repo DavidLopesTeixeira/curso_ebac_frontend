@@ -1,0 +1,36 @@
+@use 'variables';
+@import 'mixin';
+
+
+.container {
+    @include elementContainer();
+}
+
+.products {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+
+    .product-item img {
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    .product-button {
+        display: block;
+        background-color: variables.$buttonColor;
+        color: variables.$whiteColor;
+        text-align: center;
+        padding: 8px 0;
+        border-radius: 8px;
+        margin-top: 8px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: variables.$buttonHover;
+        }
+    }
+}
