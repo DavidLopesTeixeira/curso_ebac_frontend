@@ -1,0 +1,16 @@
+@use 'config/reset';
+@use 'config/variables';
+@use 'config/header';
+@use 'config/products';
+@use 'config/breakpoints';
+@use 'config/mixin';
+
+
+li {
+    list-style: none;
+}
+
+section {
+    padding: 56px 0;
+}
+
