@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    margin-right: 15px;
+    margin-top: 20px;
+    
+}
+
+body {
+    background-color: #ffffffec;
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: ffffffec;
+}
+#formulario{
+    background-color: #ffffffec;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#mensagem{
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+button{
+    background-color:#2ecc71 ;
+    padding: 4px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
